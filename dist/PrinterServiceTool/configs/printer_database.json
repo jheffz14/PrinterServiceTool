@@ -1,0 +1,76 @@
+{
+  "Epson": {
+    "models": {
+      "L3110": [
+        "Clear Waste Ink Counter",
+        "Printer Status",
+        "Head Cleaning",
+        "Nozzle Check"
+      ],
+      "L120": [
+        "Clear Waste Ink Counter",
+        "Printer Status"
+      ],
+      "L5190": [
+        "Clear Waste Ink Counter",
+        "Printer Status",
+        "Head Cleaning"
+      ],
+      "ET-2720": [
+        "Clear Waste Ink Counter",
+        "Printer Status",
+        "Head Cleaning"
+      ]
+    },
+    "error_codes": {
+      "E-01": {
+        "meaning": "General printer error",
+        "solution": "Turn off and on again. Check for paper or protective material inside."
+      },
+      "E-10": {
+        "meaning": "Waste ink pad at end of service life",
+        "solution": "Ink pad needs replacement by an authorized Epson service provider."
+      },
+      "E-11": {
+        "meaning": "Ink pad needs replacement",
+        "solution": "Contact Epson or an authorized service provider."
+      },
+      "0x97": {
+        "meaning": "Internal hardware error",
+        "solution": "Power cycle. If persists, professional servicing required."
+      },
+      "W-01": {
+        "meaning": "Paper jam occurred",
+        "solution": "Remove jammed paper and press button on LCD to clear the error."
+      }
+    }
+  },
+  "Brother": {
+    "models": {
+      "HL-L2320D": [
+        "Reset Toner",
+        "Printer Status",
+        "Drum Reset"
+      ],
+      "DCP-L2540DW": [
+        "Reset Toner",
+        "Drum Reset",
+        "Printer Status"
+      ]
+    },
+    "error_codes": {
+      "46": {
+        "meaning": "Ink absorber pad full",
+        "solution": "Contact Brother customer service for replacement."
+      },
+      "7D": {
+        "meaning": "Printer drum is dirty",
+        "solution": "Clean the printer drum per your manual."
+      },
+      "CF": {
+        "meaning": "Toner cartridge container is full",
+        "solution": "Empty waste toner container carefully."
+      }
+    }
+  }
+}

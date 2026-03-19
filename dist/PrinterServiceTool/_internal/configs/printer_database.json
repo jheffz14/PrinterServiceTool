@@ -1,0 +1,64 @@
+{
+  "Epson": {
+    "models": {
+      "L3110": ["Clear Waste Ink Counter", "Printer Status", "Head Cleaning", "Nozzle Check"],
+      "L120":  ["Clear Waste Ink Counter", "Printer Status"],
+      "L5190": ["Clear Waste Ink Counter", "Printer Status", "Head Cleaning", "Nozzle Check"],
+      "ET-2720":["Clear Waste Ink Counter", "Printer Status", "Head Cleaning"]
+    },
+    "error_codes": {
+      "E-01":  {"meaning": "General printer error", "solution": "Turn off and on again. Check for paper or protective material inside."},
+      "E-02":  {"meaning": "Scanner error", "solution": "Turn the printer off and then back on again."},
+      "E-10":  {"meaning": "Waste ink pad at end of service life", "solution": "Ink pad needs replacement by an authorized Epson service provider."},
+      "E-11":  {"meaning": "Ink pad needs replacement", "solution": "Contact Epson or an authorized service provider. Not user-serviceable."},
+      "E-12":  {"meaning": "Borderless printing ink pad needs replacement", "solution": "Contact Epson. Standard printing may still work."},
+      "E-13":  {"meaning": "Ink pad reached end of service life", "solution": "Contact Epson Support to replace the ink pad."},
+      "0x97":  {"meaning": "Internal hardware error (motherboard/printhead/sensor)", "solution": "Power cycle. If persists, professional servicing required."},
+      "0xF1":  {"meaning": "Printhead not recognized", "solution": "Realign the printhead or reseat the ink cartridges."},
+      "0xFA":  {"meaning": "Ink cartridge error (not seated or incompatible)", "solution": "Reseat or replace with a genuine Epson cartridge."},
+      "W-01":  {"meaning": "Paper jam occurred", "solution": "Remove jammed paper and press the button on the LCD to clear the error."},
+      "W-11":  {"meaning": "Ink pad nearing end of service life", "solution": "Contact Epson. Printing can usually continue by pressing start."},
+      "W-14":  {"meaning": "Borderless printing ink pad nearing end of life", "solution": "Contact Epson. You can resume printing with borders by pressing start."},
+      "W-15":  {"meaning": "Ink pad nearing end of service life", "solution": "Contact Epson for support."},
+      "I-22":  {"meaning": "Setting up Wi-Fi using WPS Push Button", "solution": "Push the WPS button on your router."},
+      "I-23":  {"meaning": "Setting up Wi-Fi using PIN (WPS)", "solution": "Enter the PIN shown on the printer's LCD into your router within 2 minutes."},
+      "I-31":  {"meaning": "Setting up Wi-Fi from a computer", "solution": "Run the printer software installer on your computer."},
+      "I-41":  {"meaning": "Paper Setup Auto Display is disabled", "solution": "Enable this setting in the printer's menu to use AirPrint."}
+    }
+  },
+  "Brother": {
+    "models": {
+      "HL-L2320D":  ["Reset Toner", "Printer Status", "Drum Reset"],
+      "DCP-L2540DW":["Reset Toner", "Drum Reset", "Printer Status"],
+      "MFC-L2700DW":["Reset Toner", "Drum Reset", "Printer Status"],
+      "HL-L2360DW": ["Reset Toner", "Printer Status"]
+    },
+    "error_codes": {
+      "Cannot Print": {"meaning": "Mechanical problem or foreign object inside", "solution": "Open machine, remove foreign objects. Disconnect power for several minutes, reconnect."},
+      "Clean Drum":   {"meaning": "Printer drum is dirty (code 7D)", "solution": "Clean the drum unit per your printer manual."},
+      "Cover Open":   {"meaning": "A cover is not properly closed", "solution": "Lift and firmly close the indicated cover until it locks."},
+      "Ink Absorber Full": {"meaning": "Ink absorber box is full", "solution": "Requires replacement. Contact Brother customer service."},
+      "Jam Front":    {"meaning": "Paper jammed in front area", "solution": "Gently remove jammed paper. Check paper guides are set correctly."},
+      "Jam Rear":     {"meaning": "Paper jammed in rear area", "solution": "Gently remove jammed paper from rear area."},
+      "No Paper Fed": {"meaning": "Out of paper or paper not loaded correctly", "solution": "Refill or reload paper in the tray, ensuring it is centered."},
+      "System Error": {"meaning": "General system error", "solution": "Turn off and on again. If persists, contact Brother Customer Service."},
+      "30-3F":  {"meaning": "Paper jam detected", "solution": "Clear the jammed paper from the printer."},
+      "40":     {"meaning": "Internal temperature too high", "solution": "Turn off and unplug. Allow to cool down, then retry."},
+      "46":     {"meaning": "Ink absorber pad full", "solution": "Contact Brother customer service for replacement."},
+      "48":     {"meaning": "Problem with the print head", "solution": "Contact Brother customer service."},
+      "4F":     {"meaning": "Problem with the print head", "solution": "Contact Brother customer service."},
+      "50-5E":  {"meaning": "Paper jam or sensor problem", "solution": "Clear paper jams first. If persists, contact Brother support."},
+      "71":     {"meaning": "Mechanical malfunction", "solution": "Check firmware, power cycle, print a report. If returns, contact Brother."},
+      "7D":     {"meaning": "Printer drum is dirty", "solution": "Clean the printer drum per your manual."},
+      "8F":     {"meaning": "Problem with paper feed motor", "solution": "Contact Brother customer service."},
+      "CF":     {"meaning": "Toner cartridge container is full", "solution": "Empty waste toner container carefully, avoid spillage."},
+      "E2":     {"meaning": "Problem with main PCB (circuit board)", "solution": "Contact Brother customer service."},
+      "E3":     {"meaning": "Problem with main PCB (circuit board)", "solution": "Contact Brother customer service."},
+      "E51":    {"meaning": "Problem with the laser unit", "solution": "Power cycle. If persists, laser unit may need professional replacement."},
+      "E52":    {"meaning": "Problem with the laser unit", "solution": "Power cycle. If persists, contact support."},
+      "26":     {"meaning": "Cartridges not recognized", "solution": "Remove cartridges, reset printer (off/on), reinstall firmly."},
+      "27":     {"meaning": "Cartridges not recognized", "solution": "Remove cartridges, reset printer (off/on), reinstall firmly."},
+      "28":     {"meaning": "Cartridges not recognized", "solution": "Remove cartridges, reset printer (off/on), reinstall firmly."}
+    }
+  }
+}
